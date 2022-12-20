@@ -1,4 +1,4 @@
-package com.DemooQA;
+package test.java.com.DemoQA.TestCases;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -8,23 +8,17 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import PageObjects.BaseClass;
+import test.java.com.DemoQA.PageObjects.BaseClass;
 
-public class TestCase1 extends BaseClass{
-	
-	//Page object model
-	
-	//Method calling and method definition
-	// Parent class and child class
-	// constructor
+public class Test1 extends BaseClass{
 	
 	@BeforeClass
-	public void set() {
+	public void openBrowser() {
 		setup();
 	}
-		
+	
 	@Test
-	public void test1() throws InterruptedException {
+	public void test1(){
 		openURL();
 	}
 	
@@ -40,12 +34,12 @@ public class TestCase1 extends BaseClass{
 	
 	@Test
 	public void test4() throws InterruptedException {
-		lp.performLogin();	
+		lp.performLogin();
 	}
 	
 	@AfterClass
-	public void closebrowser() throws InterruptedException {
+	public void close() {	
 		closeBrowser();
-	}
 
+	}
 }

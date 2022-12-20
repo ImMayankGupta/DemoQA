@@ -1,12 +1,12 @@
-package PageObjects;
+package test.java.com.DemoQA.PageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class LoginPage extends BaseClass{
 	
-	LoginPage(WebDriver driver) {
-		this.driver= driver;
+	public LoginPage(WebDriver driver) {
+		this.driver =  driver;
 	}
 	
 	public void performLogin() throws InterruptedException {

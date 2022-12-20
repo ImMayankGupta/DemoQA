@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com</groupId>
-  <artifactId>DemooQA</artifactId>
+  <artifactId>DemoQA</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>DemooQA</name>
+  <name>DemoQA</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -36,7 +36,7 @@
     <artifactId>testng</artifactId>
     <version>7.6.1</version>
     <scope>test</scope>
-    </dependency>
+</dependency>
   </dependencies>
 
   <build>
