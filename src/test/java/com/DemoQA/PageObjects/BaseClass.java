@@ -16,6 +16,11 @@ public class BaseClass {
 		System.setProperty("webdriver.chrome.driver", "Driver/chromedriver");  
 		driver = new ChromeDriver();
 		//hp = PageFactory.initElements(driver, HomePage.class);
+		//bp = PageFactory.initElements(driver, BookPage.class);
+		//lp = PageFactory.initElements(driver, LoginPage.class);
+		
+		
+		
 		hp = new HomePage(driver);
 		bp = new BookPage(driver);
 		lp= new LoginPage(driver);
@@ -28,6 +33,18 @@ public class BaseClass {
 	public void openURL() {
 		driver.get("https://demoqa.com/");
 	}
+	
+	
+	//java
+	//maven
+	//selenium
+	//testng
+	//Page object model
+	//page factory
+	
+	//github
+	
+	//jenkins
 	
 	
 	
